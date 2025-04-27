@@ -1,4 +1,6 @@
 name: Rescan translation
+  repository_dispatch:
+  workflow_dispatch:
 
 on:
   push:
