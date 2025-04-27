@@ -1,4 +1,6 @@
 name: Build ipk for HomeProxy
+  repository_dispatch:
+  workflow_dispatch:
 
 on:
   push:
